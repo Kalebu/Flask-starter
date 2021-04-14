@@ -1,16 +1,23 @@
 # [Flask-Starter](#)
 
-**Flask-starter** is a Minimal simple starter for your flask project that implement some boiler plate code for you so as you could focus on the core functionality of your project.
+**Flask-starter** is a Minimal starter for your flask project that implement some boiler plate code for you so as you could focus on the core functionality of your project.
 
 <img src="flask.webp" width="300" height="200">
 
 ## Features to Implemented
 
-- [x] Flask-Blueprint
-- [x] Flask-SQLAlchemy
-- [x] Flask-Migrate
-- [ ] Flask-Login
-- [ ] Flask-MarshMallow
+- Backend
+  - [x] Flask-Blueprint
+  - [x] Flask-SQLAlchemy
+  - [x] Flask-Migrate
+  - [ ] Flask-Login
+  - [ ] Flask-MarshMallow
+
+- User Interface(UI)
+  - [ ] Home page
+  - [ ] Signup page
+  - [ ] Signin Page
+  - [ ] Sample CMS Page
 
 ## How to run
 
@@ -19,6 +26,7 @@ git clone https://github.com/Kalebu/Flask-starter
 cd Flask-starter
 Flask-starter-> python route.py
 ```
+
 
 ## Migrating database 
 Once you modified the models codebase to mirror the change to the database without deleting it, use *flask migrate*, but before we do that we need to tell flask where entry script is located;
