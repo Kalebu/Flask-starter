@@ -24,6 +24,7 @@
 ```bash
 git clone https://github.com/Kalebu/Flask-starter
 cd Flask-starter
+Flask-starter-> pip install -r requirements.txt
 Flask-starter-> python route.py
 ```
 
