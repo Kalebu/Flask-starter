@@ -9,4 +9,4 @@ home_bp = Blueprint(
 
 @home_bp.route('/', methods=['GET'])
 def index():
-    return ['You Finally home']
+    return {'response': 'You Finally home'}
