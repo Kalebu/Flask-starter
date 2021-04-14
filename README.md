@@ -1,14 +1,14 @@
 # [Flask-Starter](#)
 
-**Flask-starter** is a simple starter for your flask project that implement some boiler plate code for you so as you could focus on the core functionality of your project.
+**Flask-starter** is a Minimal simple starter for your flask project that implement some boiler plate code for you so as you could focus on the core functionality of your project.
 
 <img src="flask.webp">
 
 ## Features to Implemented
 
 - [x] Flask-Blueprint
-- [ ] Flask-SQLAlchemy
-- [ ] Flask-Migrate
+- [x] Flask-SQLAlchemy
+- [x] Flask-Migrate
 - [ ] Flask-Login
 - [ ] Flask-MarshMallow
 
@@ -17,7 +17,7 @@
 ```bash
 git clone ...
 cd project-name
-project-name-> export FLASK_APP = app.py 
+project-name-> export FLASK_APP = route.py 
 project-name-> flask run 
 ```
 
