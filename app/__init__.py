@@ -1,3 +1,4 @@
+from logging import debug
 from flask import Flask
 from app.models import db
 from app.cms import cms_bp
@@ -8,6 +9,7 @@ from flask_migrate import Migrate
 
 def create_app():
     app = Flask(__name__)
+    app.debug = True
     app.config.from_pyfile('config.py')
     db.init_app(app)
 

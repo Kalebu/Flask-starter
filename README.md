@@ -17,8 +17,7 @@
 ```bash
 git clone ...
 cd project-name
-project-name-> export FLASK_APP = route.py 
-project-name-> flask run 
+project-name-> python route.py
 ```
 
 ## Contributions
