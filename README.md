@@ -2,6 +2,8 @@
 
 **Flask-starter** is a Minimal starter for your flask project that implement some boiler plate code for you so as you could focus on the core functionality of your project.
 
+[![Become a patron](pictures/become_a_patron_button.png)](https://www.patreon.com/kalebujordan)
+
 <img src="flask.webp" width="300" height="200">
 
 ## Features to Implemented
